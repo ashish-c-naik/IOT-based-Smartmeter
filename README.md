@@ -20,12 +20,25 @@ To see a list of other available PhoneGap templates:
 
 ## How to install this repo
 First, head over to <a href="https://nodejs.org/">nodejs.org</a> and install Node.js.<br />
+
 Go ahead and clone the repository onto your disk. Clone it inside your newly created phonegap project.<br />
+
+```sh
 <code> $ git clone https://github.com/spyashu/smartmeter.git && cd www </code> <br />
-Install bower globally <br />
-<code>$ npm install -g bower</code> <br/>
+```
+
+Install bower globally
+
+```sh
+$ npm install -g bower
+```
+
 Install necessary dependencies.<br/>
+
+```sh
 <code>$ npm run install</code><br/>
+```
+
 ## Usage of this repo
 Go ahead and run the server as follows:<br />
 <code>$ npm start</code><br />
