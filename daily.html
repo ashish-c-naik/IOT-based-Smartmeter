@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="with-statusbar-overlay">
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+    <!-- Your app title -->
+    <title>App</title>
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <link rel="stylesheet" href="css/torry.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    </head>
+<body >
+    <!-- Statusbar overlay-->
+    <div class="statusbar-overlay"></div>
+    <!-- Views-->
+    <div class="views" >
+        <div class="view view-main navbar-fixed">
+            <div class="navbar">
+                <div class="navbar-inner" style="display: inline-block;margin-top:-5px;">
+                    <div class="center sliding " id="date" style="font-size:17px;"></div>
+                </div>
+            </div>
+            <div class="page-content" style="background: rgb(222,222,222);">
+            <div class="card">
+  <div class="card-header">Daily Consumption</div>
+  <div class="card-content">
+    <div class="card-content-inner" style="overflow: scroll;">
+ 
+        	<div id="chart_div" style="width: 150%;margin-left: -10%;" ></div>
+      </div>   
+        </div>
+            
+        </div>
+        
+
+    </div>
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="./js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <!--<script type="text/javascript" src="js/main.js"> </script> -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+        var today = new Date().toLocaleString("en-us",{year:"numeric",month:"short",day:"numeric"});
+        document.getElementById('date').innerHTML = today;
+    </script>
+    
+</body>
+</html>

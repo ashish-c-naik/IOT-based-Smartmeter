@@ -1,0 +1,418 @@
+{
+    "data": [{"day": 8,
+         "totalconsumption": 45380,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [1, 4, 10, 15, 17],
+         "to": [2,7,14,16,23]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [2, 8, 0],
+ "to": [18,15,14]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [10, 11, 13],
+ "to": [14,17,17]
+ }
+ }
+ }
+ },
+{"day": 9,
+         "totalconsumption": 13220,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [6, 11, 4],
+         "to": [13,12,5]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [11, 3, 5],
+ "to": [14,13,9]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [21, 9, 15],
+ "to": [22,11,18]
+ }
+ }
+ }
+ },
+{"day": 10,
+         "totalconsumption": 37040,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [13, 14, 6],
+         "to": [16,23,18]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [13, 7, 17],
+ "to": [20,23,19]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [9, 0, 8],
+ "to": [13,8,17]
+ }
+ }
+ }
+ },
+{"day": 11,
+         "totalconsumption": 50860,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [17, 6, 1],
+         "to": [22,22,16]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [12, 1, 2],
+ "to": [14,15,13]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [2, 11, 15],
+ "to": [20,12,21]
+ }
+ }
+ }
+ },
+{"day": 12,
+         "totalconsumption": 31100,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [8, 14, 9],
+         "to": [18,17,10]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [9, 14, 17],
+ "to": [10,19,23]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [2, 22, 1],
+ "to": [5,23,14]
+ }
+ }
+ }
+ },
+{"day": 13,
+         "totalconsumption": 22840,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [23, 1, 17],
+         "to": [0,6,19]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [2, 23, 9],
+ "to": [19,0,20]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [5, 19, 23],
+ "to": [21,21,0]
+ }
+ }
+ }
+ },
+{"day": 14,
+         "totalconsumption": 43540,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [20, 14, 14],
+         "to": [22,21,19]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [17, 20, 2],
+ "to": [22,22,22]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [19, 9, 20],
+ "to": [22,19,23]
+ }
+ }
+ }
+ },
+{"day": 15,
+         "totalconsumption": 24760,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [16, 6, 21],
+         "to": [19,12,22]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [21, 19, 20],
+ "to": [22,20,22]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [10, 23, 5],
+ "to": [13,0,18]
+ }
+ }
+ }
+ },
+{"day": 16,
+         "totalconsumption": 23840,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [7, 16, 21],
+         "to": [23,20,22]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [7, 12, 21],
+ "to": [13,18,23]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [5, 8, 6],
+ "to": [18,22,17]
+ }
+ }
+ }
+ },
+{"day": 17,
+         "totalconsumption": 43760,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [20, 19, 7],
+         "to": [23,22,21]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [1, 5, 12],
+ "to": [14,14,17]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [12, 9, 14],
+ "to": [13,15,23]
+ }
+ }
+ }
+ },
+{"day": 18,
+         "totalconsumption": 22060,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [17, 0, 5],
+         "to": [23,16,10]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [9, 22, 23],
+ "to": [21,23,0]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [8, 16, 5],
+ "to": [21,21,12]
+ }
+ }
+ }
+ },
+{"day": 19,
+         "totalconsumption": 30200,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [1, 11, 17],
+         "to": [19,21,21]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [14, 5, 0],
+ "to": [19,16,9]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [16, 4, 18],
+ "to": [19,19,23]
+ }
+ }
+ }
+ },
+{"day": 20,
+         "totalconsumption": 41200,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [15, 5, 18],
+         "to": [23,7,19]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [9, 6, 9],
+ "to": [20,11,18]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [16, 2, 0],
+ "to": [22,15,16]
+ }
+ }
+ }
+ },
+{"day": 21,
+         "totalconsumption": 28880,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [19, 23, 17],
+         "to": [22,0,20]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [22, 23, 8],
+ "to": [23,0,17]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [23, 21, 12],
+ "to": [0,22,19]
+ }
+ }
+ }
+ },
+{"day": 22,
+         "totalconsumption": 18200,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [0, 11, 17],
+         "to": [23,18,21]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [16, 1, 0],
+ "to": [23,22,3]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [14, 1, 17],
+ "to": [19,3,20]
+ }
+ }
+ }
+ },
+{"day": 23,
+         "totalconsumption": 45460,
+         "devices":{
+         "light": {
+         "uph": 40,
+         "ontime": {
+         "from": [12, 2, 13],
+         "to": [16,14,21]
+     }
+ },
+ "fan": {
+ "uph": 60,
+ "ontime": {
+ "from": [4, 10, 5],
+ "to": [9,21,22]
+ }
+ },
+ "ac": {
+ "uph": 1500,
+ "ontime": {
+ "from": [18, 10, 15],
+ "to": [22,11,19]
+ }
+ }
+ }
+ }]
+ }

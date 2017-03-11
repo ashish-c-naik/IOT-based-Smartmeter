@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="with-statusbar-overlay">
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+    <!-- Your app title -->
+    <title>App</title>
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <link rel="stylesheet" href="css/torry.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    </head>
+<body >
+    <!-- Statusbar overlay-->
+    <div class="statusbar-overlay"></div>
+    <!-- Views-->
+    <div class="views" >
+        <div class="view view-main navbar-fixed">
+            <div class="navbar">
+                <div class="navbar-inner" style="display: inline-block;margin-top:-5px;">
+                    <div class="center sliding " id="date" style="font-size:17px;"></div>
+                </div>
+            </div>
+            <div class="page-content" style="background: rgb(222,222,222);">
+            <div class="card">
+  <div class="card-header">Weekly Consumption</div>
+  <div class="card-content">
+    <div class="card-content-inner" style="overflow: scroll;">
+ 
+        	<div id="chart_div" ></div>
+      </div>   
+        </div>
+            
+        </div>
+        
+        <h1>
+        JSON</h1>
+    <pre id="json"></pre>
+    <h1>
+        CSV</h1>
+    <pre id="csv"></pre>
+    </div>
+    <div class="popup">
+      <div class="navbar">
+                 <div class="navbar-inner" style="width: 100%;">
+                            <div class="left" style="width: 30%;"><a href="#" class="link close-popup"><i class="icon icon-back"></i></a></div>
+                            <div class="center sliding"  id="show-name" style="font-size:17px;width: 30%;"> <center> App </center></div>
+                        </div>
+            </div>
+            <div class="page-content" style="height: 500px">
+            <div class="card">
+  <div class="card-header">Daily Consumption</div>
+  <div class="card-content">
+    <div class="card-content-inner" style="overflow: scroll;">
+ 
+            <div id="chart_div_daily" style="width:120%"></div>
+      </div>   
+        </div>
+            
+        </div>
+        
+
+    </div>
+
+  </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="./js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <!--<script type="text/javascript" src="js/main.js"> </script> -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+        var today = new Date().toLocaleString("en-us",{year:"numeric",month:"short",day:"numeric"});
+        document.getElementById('date').innerHTML = today;
+    </script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="https://github.com/douglascrockford/JSON-js/raw/master/json2.js"></script>
+
+    <script type="text/javascript">
+        // JSON to CSV Converter
+        function ConvertToCSV(objArray) {
+            var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
+            var str = '';
+
+            for (var i = 0; i < array.length; i++) {
+                var line = '';
+                for (var index in array[i]) {
+                    if (line != '') line += ','
+
+                    line += array[i][index];
+                }
+
+                str += line + '\r\n';
+            }
+
+            return str;
+        }
+
+        // Example
+        $(document).ready(function () {
+
+            // Create Object
+            var items = [
+                  { name: "Item 1", color: "Green", size: "X-Large" },
+                  { name: "Item 2", color: "Green", size: "X-Large" },
+                  { name: "Item 3", color: "Green", size: "X-Large" }];
+
+            // Convert Object to JSON
+            var jsonObject = JSON.stringify(items);
+
+            // Display JSON
+            $('#json').text(jsonObject);
+
+            // Convert JSON to CSV & Display CSV
+            $('#csv').text(ConvertToCSV(jsonObject));
+        });
+    </script>
+
+</body>
+</html>
