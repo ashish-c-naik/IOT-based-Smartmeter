@@ -24,7 +24,7 @@ First, head over to <a href="https://nodejs.org/">nodejs.org</a> and install Nod
 Go ahead and clone the repository onto your disk. Clone it inside your newly created phonegap project.<br />
 
 ```sh
-<code> $ git clone https://github.com/spyashu/smartmeter.git && cd www </code> <br />
+$ git clone https://github.com/spyashu/smartmeter.git && cd www
 ```
 
 Install bower globally
@@ -33,15 +33,19 @@ Install bower globally
 $ npm install -g bower
 ```
 
-Install necessary dependencies.<br/>
+Install necessary dependencies.
 
 ```sh
-<code>$ npm run install</code><br/>
+$ npm run install
 ```
 
 ## Usage of this repo
-Go ahead and run the server as follows:<br />
-<code>$ npm start</code><br />
+Go ahead and run the server as follows:
+
+```sh
+$ npm start
+```
+
 Your app must now be running on localhost.
 
 [phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
