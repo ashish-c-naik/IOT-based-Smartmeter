@@ -20,7 +20,7 @@ To see a list of other available PhoneGap templates:
 
 ## How to use this repo
 Go ahead and clone the repository onto your disk.
-<code> $ git clone https://www.github.com/achillesrasquinha/k.ai.git && cd k.ai </code>
+<code> $ git clone  && cd k.ai </code>
 [phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
 [cordova-app]: http://github.com/apache/cordova-app-hello-world
 [bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
