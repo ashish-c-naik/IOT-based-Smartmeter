@@ -1,6 +1,6 @@
 # IOT based smartmeter Web application
 
-Phonegap used to bridge the web application and mobile device. It uses IBM bluemix's IOT platform to run the simulation of the IOT device. Node-red was used to generate simulated smartmeter IOT device that send us data in form of JSON string which then was visualized by using phonegap and google charts. It was done as a part of hackathon held in SPIT college on Feb 15, 2017.
+PhoneGap used to bridge the web application and mobile device. It uses IBM bluemix's IOT platform to run the simulation of the IOT device. Node-red was used to generate simulated smart meter IOT device that sends us data in form of JSON string which then was visualized by using PhoneGap and google charts. It was done as a part of hackathon held in SPIT college on Feb 15, 2017.
 
 
 ## Screenshots of app
