@@ -2,6 +2,9 @@
 
 Phonegap used to bridge the web application and mobile device.
 
+##Screenshots of app
+
+
 ## Usage
 
 #### PhoneGap CLI
