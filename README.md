@@ -4,9 +4,7 @@ Phonegap used to bridge the web application and mobile device.
 
 
 ## Screenshots of app
-<img src="./ss1.png?" width="250">
-<img src="./ss2.png?" width="250">
-<img src="./ss3.png?" width="250">
+<img src="./ss1.png?" width="250"> <img src="./ss2.png?" width="250"> <img src="./ss3.png?" width="250">
 
 ## Usage
 
