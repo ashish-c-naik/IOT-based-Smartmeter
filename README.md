@@ -2,8 +2,9 @@
 
 Phonegap used to bridge the web application and mobile device.
 
-##Screenshots of app
 
+## Screenshots of app
+![Alt text](./ss1.png?raw=true "Displaying daily quota of Smart Appliances used")
 
 ## Usage
 
