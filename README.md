@@ -2,6 +2,13 @@
 
 PhoneGap used to bridge the web application and mobile device. It uses IBM bluemix's IOT platform to run the simulation of the IOT device. Node-red was used to generate simulated smart meter IOT device that sends us data in form of JSON string which then was visualized by using PhoneGap and google charts. It was done as a part of hackathon held in SPIT college on Feb 15, 2017.
 
+## Technologies
+<a href="https://phonegap.com/">Phonegap</a> <br />
+<a href="https://www.ibm.com/cloud-computing/bluemix/internet-of-things">IBM</a> <br />
+<a href="https://console.bluemix.net/docs/services/IoT/nodereddevice_sample.html#creating-and-connecting-a-node-red-device-simulator">NODE-RED</a> <br />
+<a href="https://developers.google.com/chart/">Google charts</a> <br />
+
+
 
 ## Screenshots of app
 <img src="./ss1.png?" width="250"> <img src="./ss2.png?" width="250"> <img src="./ss3.png?" width="250">
@@ -54,10 +61,4 @@ $ npm start
 ```
 
 Your app must now be running on localhost.
-
-## Technologies
-<a href="https://phonegap.com/">Phonegap</a> <br />
-<a href="https://www.ibm.com/cloud-computing/bluemix/internet-of-things">IBM</a> <br />
-<a href="https://console.bluemix.net/docs/services/IoT/nodereddevice_sample.html#creating-and-connecting-a-node-red-device-simulator">NODE-RED</a> <br />
-<a href="https://developers.google.com/chart/">Google charts</a> <br />
 
