@@ -56,8 +56,8 @@ $ npm start
 Your app must now be running on localhost.
 
 ## Technologies
-<a href="https://phonegap.com/">Phonegap</a>
-<a href="https://www.ibm.com/cloud-computing/bluemix/internet-of-things">IBM</a>
-<a href="https://console.bluemix.net/docs/services/IoT/nodereddevice_sample.html#creating-and-connecting-a-node-red-device-simulator">NODE-RED</a>
-<a href="https://developers.google.com/chart/">Google charts</a>
+<a href="https://phonegap.com/">Phonegap</a> <br />
+<a href="https://www.ibm.com/cloud-computing/bluemix/internet-of-things">IBM</a> <br />
+<a href="https://console.bluemix.net/docs/services/IoT/nodereddevice_sample.html#creating-and-connecting-a-node-red-device-simulator">NODE-RED</a> <br />
+<a href="https://developers.google.com/chart/">Google charts</a> <br />
 
