@@ -1,12 +1,15 @@
 # IOT based smartmeter Web application
 
-Phonegap used to bridge the web application and mobile device.
+Phonegap used to bridge the web application and mobile device. It uses IBM bluemix's IOT platform to run the simulation of the IOT device. Node-red was used to generate simulated smartmeter IOT device that send us data in form of JSON string which then was visualized by using phonegap and google charts. It was done as a part of hackathon held in SPIT college on Feb 15, 2017.
 
 
 ## Screenshots of app
 <img src="./ss1.png?" width="250"> <img src="./ss2.png?" width="250"> <img src="./ss3.png?" width="250">
 
 ## Usage
+### IBM BLUEMIX IOT PLATFORM
+You can get started using the platform at: <a href="https://www.ibm.com/cloud-computing/bluemix/internet-of-things" >IOT</a>
+Node-red used for simulation : <a href="https://console.bluemix.net/docs/services/IoT/nodereddevice_sample.html#creating-and-connecting-a-node-red-device-simulator">NODE-RED</a>
 
 #### PhoneGap CLI
 
@@ -52,13 +55,9 @@ $ npm start
 
 Your app must now be running on localhost.
 
-[phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
-[cordova-app]: http://github.com/apache/cordova-app-hello-world
-[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
-[bithound-url]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world
-[config-xml]: https://github.com/phonegap/phonegap-template-hello-world/blob/master/config.xml
-[index-html]: https://github.com/phonegap/phonegap-template-hello-world/blob/master/www/index.html
-[cordova-whitelist-guide]: https://cordova.apache.org/docs/en/dev/guide/appdev/whitelist/index.html
-[cordova-plugin-whitelist]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist
-[cordova-plugin-whitelist-csp]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist#content-security-policy
-[csp-is-awesome]: http://cspisawesome.com
+## Technologies
+<a href="https://phonegap.com/">Phonegap</a>
+<a href="https://www.ibm.com/cloud-computing/bluemix/internet-of-things">IBM</a>
+<a href="https://console.bluemix.net/docs/services/IoT/nodereddevice_sample.html#creating-and-connecting-a-node-red-device-simulator">NODE-RED</a>
+<a href="https://developers.google.com/chart/">Google charts</a>
+
