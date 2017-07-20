@@ -4,7 +4,7 @@ Phonegap used to bridge the web application and mobile device.
 
 
 ## Screenshots of app
-![Bill amount](./ss1.png =250x250)
+<img src="./ss1.png?" width="48">
 ![Homepage](./ss2.png?raw=true "Homepage displaying weekly quota of Smart Appliances used" |  width=100)
 ![Daily usage](./ss3.png?raw=true "Displaying daily quota of Smart Appliances used" |  width=100)
 
